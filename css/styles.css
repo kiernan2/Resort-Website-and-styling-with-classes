@@ -2,23 +2,26 @@ body {
   background-color: blueviolet;
 }
 
-@media screen and (max-width: 1001){
+@media screen and (max-width: 480px){ /* this needs a unit like px*/
   body {
-    /* width: 300px;
+    width: 300px;
     float: left;
     padding: 20px;
-    color: red; */
+    color: red; 
     background-color: royalblue;
   }
 } 
 
-@media screen and (min-width: 1000) {
+@media screen and (min-width: 700px) {
   body {
-    /* width: 300px;
+    width: 300px;
     float: left;
     padding: 20px;
-    color: red; */
+    color: red; 
     background-color: seagreen;
   }
 }
 
+
+
+/* @media screen and (max-width: 768px) and (min-width: 600px){ */
