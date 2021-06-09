@@ -2,26 +2,10 @@ body {
   background-color: blueviolet;
 }
 
-@media screen and (max-width: 480px){ /* this needs a unit like px*/
-  body {
-    width: 300px;
-    float: left;
-    padding: 20px;
-    color: red; 
-    background-color: royalblue;
-  }
-} 
-
-@media screen and (min-width: 700px) {
-  body {
-    width: 300px;
-    float: left;
-    padding: 20px;
-    color: red; 
-    background-color: seagreen;
-  }
+h2{
+  color: red;
 }
 
-
-
-/* @media screen and (max-width: 768px) and (min-width: 600px){ */
+p{
+  color: deepskyblue;
+}
